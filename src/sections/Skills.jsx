@@ -2,7 +2,10 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full px-[10%] py-2   md:px-[18%]">
+    <div
+      id="skills"
+      className="w-full px-[10%] py-2 min-h-2/3 scroll-mt-24 md:px-[18%]"
+    >
       <h2 className="text-center font-medium text-5xl mb-10">Skills</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-2xl items-center ">
         <li className="border-2 border-gray-400 rounded-3xl p-6 cursor-pointer hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
