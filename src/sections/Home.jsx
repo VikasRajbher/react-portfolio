@@ -24,7 +24,7 @@ const Home = () => {
         Possesses foundational backend knowledge in Express.js, MongoDB,
         Mongoose, and implementing core API endpoints.
       </p>
-      <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
+      <div className="flex flex-col sm:flex-row items-center gap-4 ">
         <a
           href="#contact"
           className="px-10 py-3 bg-gradient-to-r from-[#4acbbc] via-[#5373e4] to-[#7940e4] text-white rounded-full flex items-center gap-2"
