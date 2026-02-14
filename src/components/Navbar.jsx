@@ -1,13 +1,10 @@
 import "remixicon/fonts/remixicon.css";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   return (
     <div className=" w-full fixed top-0 left-0 px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between shadow-md z-50 bg-white/80 backdrop-blur-md">
-      <img
-        src="src\assets\images\logo.png"
-        alt=""
-        className="w-32  shadow-lg mr-14 rounded-2xl"
-      />
+      <img src={logo} alt="" className="w-32  shadow-lg mr-14 rounded-2xl" />
       <ul className="hidden md:flex items-center gap-6 text-xl font-semibold lg:gap-8 rounded-full px-12 py-3">
         <li>
           <a href="#home" className="hover:text-gray-700">

@@ -1,4 +1,4 @@
-import React from "react";
+import dp from "../assets/images/dp.jpeg";
 
 const Home = () => {
   return (
@@ -7,8 +7,8 @@ const Home = () => {
       className="w-full pt-24 text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 "
     >
       <img
-        src="src\assets\images\dp.jpeg"
-        alt=""
+        src={dp}
+        alt="dp"
         className="rounded-full w-36 h-36 object-cover border-4 border-black p-1"
       />
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3">
