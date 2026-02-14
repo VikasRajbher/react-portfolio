@@ -16,11 +16,11 @@ const Aboutme = () => {
         <div>
           <div className="flex-1">
             <p className="mb-10 max-w-2xl">
-              Hello! I'm Vikas Rajbher, a passionate beginner in front-end web
-              development. I have a strong interest in creating intuitive and
-              responsive user interfaces using HTML, CSS, and JavaScript. I am
-              currently learning modern frameworks like React to further enhance
-              my skills.
+              Hello, I’m Vikas Rajbher, a Frontend Developer skilled in HTML,
+              CSS, JavaScript, and React. I build responsive and user-focused
+              interfaces using modern tools and state management techniques. I
+              also have foundational backend knowledge in Express.js, MongoDB,
+              and RESTful API development.
             </p>
 
             <ul>

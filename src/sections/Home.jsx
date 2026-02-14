@@ -18,14 +18,11 @@ const Home = () => {
         Frontend Web Developer
       </h1>
       <p className="max-w-2xl  p-8 sm:p-2 text-center mx-auto">
-        Frontend Developer with strong proficiency in HTML, CSS, JavaScript, and
-        React, experienced in developing responsive and interactive user
-        interfaces using Context API, basic Redux, and RESTful integrations with
-        complete CRUD operations. Possesses foundational backend knowledge,
-        including configuring an Express.js server, integrating MongoDB,
-        designing data models with Mongoose, and implementing core API endpoints
-        such as GET, POST, PATCH, and DELETE to support full-stack application
-        development.
+        Frontend Developer proficient in HTML, CSS, JavaScript, and React,
+        skilled in building responsive and interactive user interfaces using
+        Context API, basic Redux, and RESTful APIs with CRUD operations.
+        Possesses foundational backend knowledge in Express.js, MongoDB,
+        Mongoose, and implementing core API endpoints.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
