@@ -11,7 +11,7 @@ const Home = () => {
         alt="dp"
         className="rounded-full w-36 h-36 object-cover border-4 border-black p-1"
       />
-      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3">
+      <h3 className="flex items-end gap-2 text-xl md:text-2xl ">
         Hi! I'm Vikas Rajbher <i className="ri-hand -rotate-24 text-2xl"></i>
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[60px]">
