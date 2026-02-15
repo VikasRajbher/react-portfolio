@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Sour Gummy";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: auto;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
