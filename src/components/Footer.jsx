@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div>
       <div className="text-center">
+<<<<<<< HEAD
         <img src={logo} alt="" className="w-36 mx-auto rounded-2xl" />
+=======
+        <img src={logo} alt="" className="w-36 mx-auto" />
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
         <i className="ri-mail-line w-max mx-auto"> vikasrajbher@gmail.com</i>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">

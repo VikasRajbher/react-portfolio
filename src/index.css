@@ -32,7 +32,10 @@ section {
   font-variation-settings: "wdth" 100;
 }
 
+<<<<<<< HEAD
 @custom-variant dark (&:where(.dark, .dark *));
 
+=======
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
 
 

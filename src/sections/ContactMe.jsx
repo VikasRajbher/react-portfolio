@@ -76,6 +76,7 @@ const ContactMe = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div
       id="contact"
       className="w-full px-[10%] py-10 min-h-1/2 scroll-mt-20 
@@ -86,6 +87,11 @@ const ContactMe = () => {
       <h2 className="text-3xl font-semibold text-center">Contact Me</h2>
 
       <p className="mx-auto text-center mt-4 text-gray-600 dark:text-gray-300">
+=======
+    <div id="contact" className="w-full px-[10%] py-10 min-h-1/2 scroll-mt-20">
+      <h2 className="text-3xl font-semibold text-center">Contact Me</h2>
+      <p className="mx-auto text-center mt-4">
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
         Feel free to reach out by filling the form below
       </p>
 
@@ -101,22 +107,31 @@ const ContactMe = () => {
             placeholder="Enter your name"
             value={formData.user_name}
             onChange={handleChange}
+<<<<<<< HEAD
             className="flex-1 p-3 outline-none border border-gray-400 
           rounded-md bg-white text-black
           dark:bg-gray-800 dark:text-white dark:border-gray-600
           transition-colors duration-300"
           />
 
+=======
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-500 rounded-md bg-white"
+          />
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
           <input
             type="email"
             name="user_email"
             placeholder="Enter your email"
             value={formData.user_email}
             onChange={handleChange}
+<<<<<<< HEAD
             className="flex-1 p-3 outline-none border border-gray-400 
           rounded-md bg-white text-black
           dark:bg-gray-800 dark:text-white dark:border-gray-600
           transition-colors duration-300"
+=======
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-500 rounded-md bg-white"
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
           />
         </div>
 
@@ -126,21 +141,29 @@ const ContactMe = () => {
           placeholder="Enter your message"
           value={formData.message}
           onChange={handleChange}
+<<<<<<< HEAD
           className="w-full p-4 outline-none border border-gray-400
           rounded-md bg-white text-black placeholder:text-gray-500 dark:bg-gray-800 dark:text-white dark:placeholder:text-gray-400 dark:border-gray-600
           mb-6 transition-colors duration-300"
+=======
+          className="w-full p-4 outline-none border-[0.5px] border-gray-500 rounded-md bg-white mb-6"
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
         ></textarea>
 
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
 
         <button
           type="submit"
+<<<<<<< HEAD
           className="py-3 px-8 w-max flex items-center gap-2 
         bg-black text-white 
         dark:bg-white dark:text-black
         rounded-full mx-auto 
         hover:opacity-90 
         duration-300 active:scale-95"
+=======
+          className="py-3 px-8 w-max flex items-center gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 active:scale-95"
+>>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
         >
           Submit now <i className="ri-arrow-right-up-long-fill"></i>
         </button>
