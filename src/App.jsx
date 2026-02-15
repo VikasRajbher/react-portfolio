@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { useEffect, useState } from "react";
-=======
-import React from "react";
->>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./sections/Home";
 import Aboutme from "./sections/Aboutme";
@@ -12,9 +8,9 @@ import ContactMe from "./sections/ContactMe";
 import Footer from "./components/Footer";
 
 const App = () => {
-<<<<<<< HEAD
   const [darkMode, setDarkMode] = useState(false);
 
+  // Apply dark class to html tag
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -24,13 +20,8 @@ const App = () => {
   }, [darkMode]);
 
   return (
-    <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300">
+    <div className="transition-colors duration-300 bg-white dark:bg-gray-900 text-black dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-=======
-  return (
-    <div>
-      <Navbar />
->>>>>>> 422b2442096a076fe7470582c3ada4135fe7da95
       <Home />
       <Aboutme />
       <Skills />
