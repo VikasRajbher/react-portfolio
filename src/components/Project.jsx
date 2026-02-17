@@ -1,4 +1,4 @@
-import moody from "../assets/images/moody.png";
+import cddd from "../assets/cddd.png";
 import "remixicon/fonts/remixicon.css";
 
 const Project = () => {
