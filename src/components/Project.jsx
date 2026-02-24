@@ -1,4 +1,5 @@
 import moody from "../assets/images/Moody.png";
+import sync from "../assets/images/synclife.png";
 import "remixicon/fonts/remixicon.css";
 
 const Project = () => {
@@ -8,6 +9,12 @@ const Project = () => {
       title: "Moody Player",
       image: moody,
       link: "https://moodyplayer-1-7cw1.onrender.com/",
+    },
+    {
+      id: 2,
+      title: "SyncLife",
+      image: sync,
+      link: "https://synclife-1.onrender.com/",
     },
   ];
 
