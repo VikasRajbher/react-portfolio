@@ -6,7 +6,7 @@ const Skills = () => {
       id="skills"
       className="w-full px-[10%] py-2 min-h-2/3 scroll-mt-24 md:px-[18%]"
     >
-      <h2 className="text-center font-medium text-5xl mb-10">Skills</h2>
+      <h2 className="text-center font-medium text-5xl mb-10">Skills & Tools</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-2xl items-center ">
         <li
           className="border-2 border-gray-400 rounded-3xl p-6 cursor-pointer 
@@ -16,7 +16,7 @@ const Skills = () => {
         >
           <i className="ri-anchor-line text-2xl font-bold dark:text-white"></i>
           <h3 className="my-2 text-xl font-semibold text-gray-700 dark:text-white">
-            SKILLS & Tools
+            SKILLS
           </h3>
 
           <p className="text-gray-600 text-lg mb-2 hover:translate-y-1 duration-100 hover:text-red-500 dark:text-white">

@@ -20,9 +20,6 @@ const Footer = () => {
 
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li className="hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer transition">
-            Instagram
-          </li>
-          <li className="hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer transition">
             Github
           </li>
           <li className="hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer transition">

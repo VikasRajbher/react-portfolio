@@ -9,9 +9,9 @@ const Home = () => {
       <img
         src={dp}
         alt="dp"
-        className="rounded-full w-36 h-36 object-cover border-4 
-        border-black dark:border-white 
-          p-1 transition-colors duration-300"
+        className="rounded-full w-36 h-36 object-cover border-2
+        border-black p-1 dark:border-white 
+           transition-colors duration-300 dark:p-2 "
       />
 
       <h3 className="flex items-end gap-2 text-xl md:text-2xl ">
@@ -36,7 +36,7 @@ const Home = () => {
         </a>
         <a
           href="#contact"
-          download
+          download="Vikas_Rajbher.pdf"
           className="px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2"
         >
           My Resume <i className="ri-download-cloud-2-fill text-xl"></i>
